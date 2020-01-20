@@ -1,0 +1,126 @@
+.contenedor-pagina {
+        grid-template-columns: 100%;
+        justify-content: center;
+        grid-gap: 20px;
+        background: #F2FCFF;
+}
+
+body {
+    font-family: Roboto;
+}
+.contenedor-1 nav div{
+
+    padding-bottom: 4%;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 3%;
+    font-size: 42px;
+}    
+
+.contenedor-interno {
+    
+    grid-template-columns: 30% 70%;
+    display: grid;
+    
+}
+
+.contenedor-interno div img {
+
+    width: 64px;
+    border-radius: 50px;
+
+} 
+
+.contenedor-interno div p {
+
+    border-radius: 50px;
+
+} 
+
+.Amigo {
+    overflow: auto;
+    background: #FFFFFF;
+    border-bottom-color: grey;
+    border-bottom-style: solid;
+    border-width: 1px;
+
+} 
+
+.fotoPerfil {
+    float: left;
+    margin-left: 36px;
+    margin-top: 14px;
+    margin-bottom: 11px;
+} 
+
+.nombrePerfil {
+    padding-left: 80px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 50px;
+} 
+
+.barra__sub_herramientas {
+    grid-template-columns: 100%;
+    justify-content: center;
+    background: #DBDBDB;
+    height: 130px;
+    
+
+}
+.listaMenu{
+    
+    left: 3.33%;
+    right: 72.28%;
+    top: 5.08%;
+    bottom: 80.68%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+    padding-left: 30px;
+    padding-top: 27px;
+    padding-right: 29px;
+    padding-bottom: 21px;
+
+}
+.chat{
+    text-align: -webkit-center;
+    padding-top: 50px;
+}
+.textArea{
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #8F8F8F;
+    width: 96%;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.campoText{
+    text-align: -webkit-center;
+    background: #F2F2F2;
+    margin-top: -20px;
+}
+
+.chatList{
+    height: 73%;
+    width: 100%;
+    background: #F2F2F2;
+    margin-top: -2.2%;
+}

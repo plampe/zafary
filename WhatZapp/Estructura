@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<!-- abrimos una etiqueta html -->
+<html>
+  <!-- abrimos una etiqueta head dentro de la etiqueta html -->
+  
+  <head>
+    <!-- abrimos una etiqueta title dentro de la etiqueta head -->
+    <title>Document</title>
+  <!-- cerramos la etiqueta head -->
+  </head>
+  <!-- abrimos la etiqueta body -->
+  <body>
+    <!-- aquí va el contenido visible de nuestra página, dentro de la etiqueta body -->
+  </body>
+  <!-- cerramos la etiqueta html -->
+</html>

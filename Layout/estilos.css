@@ -1,0 +1,67 @@
+.contenedor-pagina {
+        grid-template-columns: 100%;
+        justify-content: center;
+        grid-gap: 20px;
+        border: 3px solid red;
+}
+
+.contenedor-1 {
+        
+    border: 3px solid violet;
+}
+.contenedor-1 nav div{
+
+    padding-bottom: 4%;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 3%;
+    font-size: x-large;
+}    
+
+.contenedor-2 {
+    
+    grid-template-columns: 30% 70%;
+    border: 3px solid lightskyblue;
+    display: grid;
+}
+
+.contenedor-3 {
+    padding-bottom: 100%;
+    border: 3px solid blue;
+}
+  
+.barra__sub_herramientas {
+    /* border: 1px solid lightsalmon; */
+    border: 3px solid orange;
+    
+    
+}
+  
+.contenido_secudario {
+    padding-bottom: 100%;
+    border: 3px solid limegreen;
+}
+
+.espacio {
+    padding-block-end: 100%;
+    margin-bottom: -100%;
+    border: 3px solid fuchsia;
+}
+
+.contenedor-2 aside div{
+
+    padding-bottom: 4%;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 5%;
+    font-size: x-large;
+}
+
+.contenedor-3 header div{
+
+    padding-bottom: 4%;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 4%;
+    font-size: x-large;
+}

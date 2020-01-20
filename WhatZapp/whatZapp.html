@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./estilos.css">
+        <script src="logica.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <title>Document</title>
+    </head>
+    <body>
+    
+        <section class="contenedor-pagina">
+
+            <header class="contenedor-1">
+                <nav>
+                    <div class="nombre">WhatzApp</div>
+                </nav>
+            </header>
+
+            <section class="contenedor-interno">
+                <article class="contenedor-2">
+                    <header class="barra__sub_herramientas">
+                        <div class="listaMenu">LISTA DE CONTACTOS</div>
+                    </header>
+
+                    <div class="Amigo" onclick="mostrarDatoshome('JUAN PÉREZ PÉREZ')">
+                        <div class="fotoPerfil">
+                            <img float:right src="https://randomuser.me/api/portraits/men/13.jpg"
+                                alt="JuanPerezPerez">
+                        </div>
+                        <div class="nombrePerfil">
+                            <p>JUAN PÉREZ PÉREZ</p>
+                        </div>
+                    </div>
+                    <div class="Amigo" onclick="mostrarDatoshome('PERICO CASANOVA')">
+                        <div class="fotoPerfil">
+                            <img src="https://randomuser.me/api/portraits/men/47.jpg"
+                                alt="PericoCasanova">
+                        </div>
+                        <div class="nombrePerfil">
+                            <p>PERICO CASANOVA</p>
+                        </div>
+                    </div>
+                    <div class="Amigo" onclick="mostrarDatoshome('MIRANDA CASAS')">
+                        <div class="fotoPerfil">
+                            <img src="https://randomuser.me/api/portraits/women/63.jpg"
+                                alt="MirandaCasas">
+                        </div>
+                        <div class="nombrePerfil">
+                            <p>MIRANDA CASAS</p>
+                        </div>
+                    </div>
+                    <div class="Amigo" onclick="mostrarDatoshome('PAOLA ASENJO')">
+                        <div class="fotoPerfil">
+                            <img src="https://randomuser.me/api/portraits/women/60.jpg"
+                                alt="PaolaAsenjo">
+                        </div>
+                        <div class="nombrePerfil" >
+                            <p>PAOLA ASENJO</p>  
+                        </div>
+                    </div>
+                    <div class="Amigo" onclick="mostrarDatoshome('MIRIAM HERNANDEZ')">
+                            <div class="fotoPerfil">
+                                <img src="https://randomuser.me/api/portraits/women/76.jpg"
+                                 alt="MiriamHernandez">
+                            </div>
+                            <div class="nombrePerfil">
+                                <p>MIRIAM HERNANDEZ</p>
+                            </div>   
+                    </div>
+                </article>
+
+
+                <article class="contenedor-2">
+                    <header class="barra__sub_herramientas" >
+                        <div id="contacto" class="listaMenu chat"></div>
+                    </header>
+                    <div class="chatList">  
+                        <p></p>
+                    </div>
+                    <div class="campoText">
+                        <input type="text" class="textArea" name="texto" placeholder="Escriba su mensaje aquí...">
+                    </div> 
+                    
+                </article>
+            </section>
+        </section>
+
+
+    </body>
+</html>
+
+

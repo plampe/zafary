@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>login</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="logica.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+    <header class="tituloHome">
+        <h1>Zafary</h1>
+    </header>
+    <section style="width: 100%;display: -webkit-inline-box;">
+        <aside class="sidenav">
+            <a href="javascript:void(0);" onclick="cambioVentana('a');" ><img src="../images/home.jpg"/> <p>Home</p></a>
+            <a href="javascript:void(0);" onclick="cambioVentana('b');" ><img src="../images/wzapp.jpg"/><p>WhatzApp</p></a>
+            <a href="javascript:void(0);" onclick="cambioVentana('c');" ><img src="../images/zpotify.jpg"/><p>Zpotify</p></a>
+        </aside>
+        <main style="width: 100%;">
+           
+            <section>
+                <iframe height="1000px" width="1000px" src="./home1.html" name="iframe_a" style="border: 0px;" id="iFrame"></iframe>
+            </section>
+        </main>
+    </section>
+</body>
+<script>
+function cambioVentana(letra){
+    console.log("inicia funcion");
+    if(letra=="a"){
+        console.log("if a");
+       // document.getElementById('titulosHome').innerHTML = 'Home';
+        const contDinamico  = document.getElementById('iFrame');
+        contDinamico.setAttribute( 'src',  './home1.html');
+    }else if(letra=="b"){
+        console.log("if b");
+       // document.getElementById('titulosHome').innerHTML = 'WhatzApp';
+        const contDinamico  = document.getElementById('iFrame');
+        contDinamico.setAttribute('src',  '../WhatZapp/whatZapp.html');
+        
+    }else if(letra=="c"){
+        console.log("if c");
+       // document.getElementById('titulosHome').innerHTML = 'Zpotify';
+        const contDinamico  = document.getElementById('iFrame');
+        contDinamico.setAttribute('src','../Zpotify/index.html');
+
+    }
+
+}
+</script>
+
+</html>
